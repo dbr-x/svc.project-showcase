@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "outDir": "../../../packages/svc.project-showcase/dist",
+  },
+  "include": ["../../../packages/svc.project-showcase/src/**/*.ts", "../../../packages/svc.project-showcase/src/**/*.js", "../../../packages/svc.project-showcase/src/**/*.svelte"],
+  "exclude": ["../../../packages/svc.project-showcase/dist/**/*"]
+}
